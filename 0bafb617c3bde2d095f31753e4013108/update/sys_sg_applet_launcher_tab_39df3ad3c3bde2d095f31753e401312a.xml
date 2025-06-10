@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Mobile Agent Asset Management">b1df3ad3c3bde2d095f31753e4013129</applet_launcher>
+        <icon display_value="Home Mobile Agent Asset Management">79df3ad3c3bde2d095f31753e401312a</icon>
+        <label>Mobile Agent Asset Management</label>
+        <roles>asset</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 12:58:16</sys_created_on>
+        <sys_id>39df3ad3c3bde2d095f31753e401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile Agent Asset Management</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_39df3ad3c3bde2d095f31753e401312a</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 12:58:16</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

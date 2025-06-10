@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Asset order_date</name>
+        <parent>aadff21bc3bde2d095f31753e401312b</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 12:58:20</sys_created_on>
+        <sys_id>62dff21bc3bde2d095f31753e4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset order_date</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_62dff21bc3bde2d095f31753e4013187</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 12:58:20</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

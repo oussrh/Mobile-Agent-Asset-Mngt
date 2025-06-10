@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2025-06-05 09:03:31</last_registered_on>
+        <send_badge_count>true</send_badge_count>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 08:48:03</sys_created_on>
+        <sys_id>3fb9500c1bce66143dde65fce54bcbd0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>djO2DqsTTDm6y7MpAaox0k:APA91bFhdrBY6ckOy87Ku9bwMnQ6VDiG_Sk2swqdKC8-Au0Kyta5PX7Yuy7ElQGrHu2wk2TFkbomlH-xqAi6Vqp_xgzIJ4BPtGo8QAh_VCrwalOCLrcWSOU</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_3fb9500c1bce66143dde65fce54bcbd0</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 09:03:31</sys_updated_on>
+        <sys_user_id display_value="Oussama R'HONI">8af2473b1b480d90125241d0b24bcbfa</sys_user_id>
+        <token>djO2DqsTTDm6y7MpAaox0k:APA91bFhdrBY6ckOy87Ku9bwMnQ6VDiG_Sk2swqdKC8-Au0Kyta5PX7Yuy7ElQGrHu2wk2TFkbomlH-xqAi6Vqp_xgzIJ4BPtGo8QAh_VCrwalOCLrcWSOU</token>
+    </sys_push_notif_app_install>
+</record_update>

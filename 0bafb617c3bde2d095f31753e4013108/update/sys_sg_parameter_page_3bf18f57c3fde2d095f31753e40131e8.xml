@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_page">
+    <sys_sg_parameter_page action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Page 1</name>
+        <order>100</order>
+        <parameter_screen display_value="asset_inventory_input_screen">2ee10b57c3fde2d095f31753e40131a1</parameter_screen>
+        <sys_class_name>sys_sg_parameter_page</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:07:42</sys_created_on>
+        <sys_id>3bf18f57c3fde2d095f31753e40131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Page 1</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_parameter_page_3bf18f57c3fde2d095f31753e40131e8</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:07:42</sys_updated_on>
+    </sys_sg_parameter_page>
+</record_update>

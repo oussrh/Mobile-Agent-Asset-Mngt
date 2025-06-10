@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function onChange(inputName, newValue) {
+	if (!newValue) return;
+g_form.showFieldMsg("asset_tag", "No asset found for this tag.", "error");
+
+	g_form.runFunctionAction({
+		name: "get_asset_by_tag_item",
+		input: {
+			asset_tag: newValue
+		},
+		callback: function(response) {
+			if (response && response.record_id) {
+				g_navigation.navigateToRecord("alm_asset", response.record_id);
+			} else {
+				g_form.showFieldMsg("asset_tag", "No asset found for this tag.", "error");
+			}
+		}
+	});
+}]]></client_script>
+        <operation display_value="Run Client Script">e16fffc367233110db9fb9770cf9224b</operation>
+        <order>100</order>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:48:41</sys_created_on>
+        <sys_id>be55f40c1bcaa6143dde65fce54bcb0f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_be55f40c1bcaa6143dde65fce54bcb0f</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 11:12:27</sys_updated_on>
+        <target/>
+        <target_mapping/>
+        <ui_rule display_value="Auto Redirect on Scan">725530cc1b8aa6143dde65fce54bcbd7</ui_rule>
+        <value/>
+    </sys_sg_ui_rule_action>
+</record_update>

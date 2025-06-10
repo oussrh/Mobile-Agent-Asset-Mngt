@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="DELETE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Asset tag</label>
+        <mandatory>true</mandatory>
+        <name>asset_tag</name>
+        <order>100</order>
+        <page/>
+        <parameter_screen display_value="get_Asset_by_tag_screen">309038c01b4aa6143dde65fce54bcb6d</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:28:23</sys_created_on>
+        <sys_id>a5b074481b4aa6143dde65fce54bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset tag</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_input_a5b074481b4aa6143dde65fce54bcb8d</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:28:23</sys_updated_on>
+        <type display_value="Barcode">c9060dbb73f01110a1dd936aaf148b17</type>
+    </sys_sg_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</application>
+        <file_path/>
+        <instance_id>435e1ba7db0bcf444065f0e5bf96196c</instance_id>
+        <instance_name>deveeas</instance_name>
+        <name>sys_sg_input_a5b074481b4aa6143dde65fce54bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input"><sys_sg_input action="INSERT_OR_UPDATE"><active>true</active><autofill_variable/><category/><description/><label>Asset tag</label><mandatory>true</mandatory><name>asset_tag</name><order>100</order><page/><parameter_screen display_value="get_Asset_by_tag_screen">309038c01b4aa6143dde65fce54bcb6d</parameter_screen><parameter_section/><placeholder/><readonly>false</readonly><sys_class_name>sys_sg_input</sys_class_name><sys_created_by>irhoniou</sys_created_by><sys_created_on>2025-06-05 10:28:23</sys_created_on><sys_id>a5b074481b4aa6143dde65fce54bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Asset tag</sys_name><sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package><sys_policy/><sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope><sys_update_name>sys_sg_input_a5b074481b4aa6143dde65fce54bcb8d</sys_update_name><sys_updated_by>irhoniou</sys_updated_by><sys_updated_on>2025-06-05 10:28:23</sys_updated_on><type display_value="Barcode">c9060dbb73f01110a1dd936aaf148b17</type></sys_sg_input></record_update>]]></payload>
+        <payload_hash>162242955</payload_hash>
+        <record_name>Asset tag</record_name>
+        <reverted_from/>
+        <source>3e30c31fc3bde2d095f31753e4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:28:23</sys_created_on>
+        <sys_id>65b074481b4aa6143dde65fce54bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973fa2802c0000001</sys_recorded_at>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:28:23</sys_updated_on>
+        <type>Input</type>
+        <update_guid>29b07448df4aa614b70b24e7cd93248f</update_guid>
+        <update_guid_history>29b07448df4aa614b70b24e7cd93248f:162242955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 11:27:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_input">sys_sg_input</sys_db_object>
+        <sys_id>1a3e30d98e644de0b71e80f7ab604400</sys_id>
+        <sys_metadata>a5b074481b4aa6143dde65fce54bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asset tag</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_scope_delete display_value="">18d84dd597c244488095fb07956c8a40</sys_scope_delete>
+        <sys_update_name>sys_sg_input_a5b074481b4aa6143dde65fce54bcb8d</sys_update_name>
+        <sys_update_version display_value="sys_sg_input_a5b074481b4aa6143dde65fce54bcb8d">65b074481b4aa6143dde65fce54bcb90</sys_update_version>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 11:27:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

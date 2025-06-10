@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable/>
+        <category/>
+        <description/>
+        <label>Asset</label>
+        <mandatory>false</mandatory>
+        <name>asset</name>
+        <order>200</order>
+        <page display_value="Page 1">3bf18f57c3fde2d095f31753e40131e8</page>
+        <parameter_screen display_value="asset_inventory_input_screen">2ee10b57c3fde2d095f31753e40131a1</parameter_screen>
+        <parameter_section/>
+        <placeholder>Asset</placeholder>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:08:55</sys_created_on>
+        <sys_id>6942cfdbc3fde2d095f31753e40131c6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>asset</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_input_6942cfdbc3fde2d095f31753e40131c6</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-04 13:48:56</sys_updated_on>
+        <type display_value="Barcode">c9060dbb73f01110a1dd936aaf148b17</type>
+    </sys_sg_input>
+</record_update>

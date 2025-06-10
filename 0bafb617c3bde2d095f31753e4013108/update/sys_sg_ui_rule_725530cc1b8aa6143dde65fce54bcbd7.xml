@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule">
+    <sys_sg_ui_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <name>Auto Redirect on Scan</name>
+        <order>100</order>
+        <parent_id>309038c01b4aa6143dde65fce54bcb6d</parent_id>
+        <parent_table>sys_sg_parameter_screen</parent_table>
+        <reverse_if_false>false</reverse_if_false>
+        <sys_class_name>sys_sg_ui_rule</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:48:41</sys_created_on>
+        <sys_id>725530cc1b8aa6143dde65fce54bcbd7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Auto Redirect on Scan</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_725530cc1b8aa6143dde65fce54bcbd7</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:55:08</sys_updated_on>
+        <trigger>1b680bd85b431010da168d8fa881c7a5</trigger>
+        <user_action_id/>
+    </sys_sg_ui_rule>
+</record_update>

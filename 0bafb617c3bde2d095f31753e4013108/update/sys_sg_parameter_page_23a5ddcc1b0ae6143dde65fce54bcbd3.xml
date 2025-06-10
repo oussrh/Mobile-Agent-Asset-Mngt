@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_page">
+    <sys_sg_parameter_page action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Label</name>
+        <order>200</order>
+        <parameter_screen display_value="Register New Laptop ">32befc001b8ea6143dde65fce54bcbf2</parameter_screen>
+        <sys_class_name>sys_sg_parameter_page</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 13:09:54</sys_created_on>
+        <sys_id>23a5ddcc1b0ae6143dde65fce54bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Label</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_parameter_page_23a5ddcc1b0ae6143dde65fce54bcbd3</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:09:54</sys_updated_on>
+    </sys_sg_parameter_page>
+</record_update>

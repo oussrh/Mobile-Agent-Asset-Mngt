@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function(parm_input) {
+	var year = new GlideDateTime().getYearLocalTime(); // Ex: 2025
+	var prefix = "02SE" + year;
+
+	// Récupérer le dernier asset tag existant pour incrémenter
+	var assetGR = new GlideRecord("alm_asset");
+	assetGR.addQuery("asset_tag", "STARTSWITH", prefix);
+	assetGR.orderByDesc("asset_tag");
+	assetGR.setLimit(1);
+	assetGR.query();
+
+	var last = 0;
+	if (assetGR.next()) {
+		last = parseInt(assetGR.asset_tag.substring(8)) || 0;
+	}
+
+	var newTag = prefix + (last + 1).toString().padStart(7, "0");
+
+	// Format visuel avec espaces : 02SE 2025 00012 3
+	var formattedTag = newTag.replace(/^(.{4})(.{4})(.{5})/, "$1 $2 $3");
+
+	// Création de l'enregistrement alm_asset
+	var asset = new GlideRecord("alm_asset");
+	asset.initialize();
+	asset.asset_tag = newTag;
+	asset.serial_number = parm_input.serial_number;
+	asset.u_imei = parm_input.imei;
+	asset.u_mac_address = parm_input.mac_address;
+	asset.model = parm_input.model;
+	asset.location = parm_input.location;
+	asset.insert();
+
+	// Génération de l'URL du code-barres avec bwip-js
+	var barcodeUrl = "https://api-bwipjs.metafloor.com/?bcid=code128&text=" + encodeURIComponent(newTag) + "&scale=3&includetext";
+
+	// HTML d'étiquette (mobile preview ou impression plus tard)
+	var html =
+  '<div style="font-family:Arial;text-align:center;width:280px;height:140px;padding:10px;">' +
+    '<div style="font-size:14px;font-weight:bold;margin-bottom:6px;">' +
+      (parm_input.model_display || "Model inconnu") +
+    '</div>' +
+    '<div>' +
+      '<img src="' + barcodeUrl + '" style="width:100%;max-height:90px;" />' +
+    '</div>' +
+    '<div style="margin-top:4px;font-size:12px;letter-spacing:2px;">' +
+      formattedTag +
+    '</div>' +
+  '</div>';
+
+	return {
+		sys_id: asset.getUniqueValue(),
+		asset_tag: newTag,
+		formatted_tag: formattedTag,
+		barcode_url: barcodeUrl,
+		label_html: html
+	};
+
+})(parm_input);]]></execution_script>
+        <name>generate_laptop_label</name>
+        <parameter_screen display_value="Register New Laptop ">32befc001b8ea6143dde65fce54bcbf2</parameter_screen>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 12:00:35</sys_created_on>
+        <sys_id>50d5c50c1b82e6143dde65fce54bcbe3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>generate_laptop_label</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_50d5c50c1b82e6143dde65fce54bcbe3</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 12:05:00</sys_updated_on>
+        <table>alm_asset</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>
