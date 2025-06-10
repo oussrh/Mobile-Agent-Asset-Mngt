@@ -6,14 +6,14 @@
         <sys_created_by>irhoniou</sys_created_by>
         <sys_created_on>2025-06-03 13:09:47</sys_created_on>
         <sys_id>9e7283d3c3fde2d095f31753e4013155</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>MaxEntries</sys_name>
         <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
         <sys_update_name>sys_sg_input_attribute_9e7283d3c3fde2d095f31753e4013155</sys_update_name>
         <sys_updated_by>irhoniou</sys_updated_by>
-        <sys_updated_on>2025-06-03 13:39:01</sys_updated_on>
-        <value>100</value>
+        <sys_updated_on>2025-06-10 05:47:03</sys_updated_on>
+        <value>200</value>
     </sys_sg_input_attribute>
 </record_update>

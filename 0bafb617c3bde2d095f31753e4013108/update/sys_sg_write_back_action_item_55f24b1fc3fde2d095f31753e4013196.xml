@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
     <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
-        <description/>
+        <description>Asset Inventory Action item</description>
         <execution_script><![CDATA[(function WriteBackAction(parm_input) {
     // Check if location is provided
 
@@ -51,14 +51,14 @@
         <sys_created_by>irhoniou</sys_created_by>
         <sys_created_on>2025-06-03 13:11:54</sys_created_on>
         <sys_id>55f24b1fc3fde2d095f31753e4013196</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>asset_inventory_item</sys_name>
         <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_55f24b1fc3fde2d095f31753e4013196</sys_update_name>
         <sys_updated_by>irhoniou</sys_updated_by>
-        <sys_updated_on>2025-06-05 10:11:46</sys_updated_on>
+        <sys_updated_on>2025-06-10 05:48:19</sys_updated_on>
         <table>alm_asset</table>
         <template>asset_tag={{Input: asset}}^location={{Input: assets_location}}^EQ</template>
         <type>script</type>
