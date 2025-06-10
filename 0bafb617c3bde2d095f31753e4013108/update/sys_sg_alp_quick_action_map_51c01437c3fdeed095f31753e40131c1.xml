@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Mobile Agent Asset Management">b1df3ad3c3bde2d095f31753e4013129</applet_launcher>
+        <order/>
+        <quick_action_button display_value="Inventory">1dc01437c3fdeed095f31753e40131bb</quick_action_button>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-04 13:30:21</sys_created_on>
+        <sys_id>51c01437c3fdeed095f31753e40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_51c01437c3fdeed095f31753e40131c1</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-04 13:30:21</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+</record_update>

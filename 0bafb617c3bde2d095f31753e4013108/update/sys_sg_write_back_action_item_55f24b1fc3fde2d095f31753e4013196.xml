@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(parm_input) {
+    // Check if location is provided
+
+    gs.info("OR-OR " + parm_input.asset);
+    if (!parm_input.assets_location) {
+        throw new Error("No location selected.");
+    }
+
+    if (!parm_input.asset || parm_input.asset.length === 0) {
+        throw new Error("No assets scanned.");
+    }
+
+    var locationSysId = parm_input.assets_location;
+    var successCount = 0;
+    var errors = [];
+
+    for (var i = 0; i < parm_input.asset.length; i++) {
+        var assetTag = parm_input.asset[i];
+
+        try {
+            var assetGR = new GlideRecord('alm_asset');
+            assetGR.addQuery('asset_tag', assetTag);
+            assetGR.query();
+
+            if (assetGR.next()) {
+                assetGR.setValue('location', locationSysId);
+                assetGR.update();
+                successCount++;
+            } else {
+                errors.push("Asset not found: " + assetTag);
+            }
+        } catch (e) {
+            errors.push("Error updating asset " + assetTag + ": " + e.message);
+        }
+    }
+
+    return {
+        status: errors.length === 0 ? "success" : "partial",
+        message: successCount + " asset(s) updated.",
+        errors: errors
+    };
+
+})(parm_input);]]></execution_script>
+        <name>asset_inventory_item</name>
+        <parameter_screen display_value="asset_inventory_input_screen">2ee10b57c3fde2d095f31753e40131a1</parameter_screen>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:11:54</sys_created_on>
+        <sys_id>55f24b1fc3fde2d095f31753e4013196</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>asset_inventory_item</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_55f24b1fc3fde2d095f31753e4013196</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:11:46</sys_updated_on>
+        <table>alm_asset</table>
+        <template>asset_tag={{Input: asset}}^location={{Input: assets_location}}^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

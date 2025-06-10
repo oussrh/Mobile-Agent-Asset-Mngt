@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="INSERT_OR_UPDATE">
+        <input display_value="Model">da54414c1b42e6143dde65fce54bcbda</input>
+        <name>EnableSearch</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 11:54:22</sys_created_on>
+        <sys_id>c96401c01b82e6143dde65fce54bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnableSearch</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_c96401c01b82e6143dde65fce54bcbc0</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 11:54:22</sys_updated_on>
+        <value>true</value>
+    </sys_sg_input_attribute>
+</record_update>

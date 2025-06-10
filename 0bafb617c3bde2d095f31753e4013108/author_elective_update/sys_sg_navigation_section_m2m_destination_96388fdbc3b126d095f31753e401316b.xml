@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_m2m_destination">
+    <sys_sg_navigation_section_m2m_destination action="DELETE">
+        <navigation_section display_value="Inventory">47c7c31fc3b126d095f31753e40131e3</navigation_section>
+        <navigation_section_destination display_value="Inventory">8e388fdbc3b126d095f31753e4013166</navigation_section_destination>
+        <order/>
+        <sys_class_name>sys_sg_navigation_section_m2m_destination</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:34:54</sys_created_on>
+        <sys_id>96388fdbc3b126d095f31753e401316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_navigation_section_m2m_destination_96388fdbc3b126d095f31753e401316b</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:34:54</sys_updated_on>
+    </sys_sg_navigation_section_m2m_destination>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</application>
+        <file_path/>
+        <instance_id>435e1ba7db0bcf444065f0e5bf96196c</instance_id>
+        <instance_name>deveeas</instance_name>
+        <name>sys_sg_navigation_section_m2m_destination_96388fdbc3b126d095f31753e401316b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_section_m2m_destination"><sys_sg_navigation_section_m2m_destination action="INSERT_OR_UPDATE"><navigation_section display_value="Inventory">47c7c31fc3b126d095f31753e40131e3</navigation_section><navigation_section_destination display_value="Inventory">8e388fdbc3b126d095f31753e4013166</navigation_section_destination><order/><sys_class_name>sys_sg_navigation_section_m2m_destination</sys_class_name><sys_created_by>irhoniou</sys_created_by><sys_created_on>2025-06-03 13:34:54</sys_created_on><sys_id>96388fdbc3b126d095f31753e401316b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package><sys_policy/><sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope><sys_update_name>sys_sg_navigation_section_m2m_destination_96388fdbc3b126d095f31753e401316b</sys_update_name><sys_updated_by>irhoniou</sys_updated_by><sys_updated_on>2025-06-03 13:34:54</sys_updated_on></sys_sg_navigation_section_m2m_destination></record_update>]]></payload>
+        <payload_hash>-276779724</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3e30c31fc3bde2d095f31753e4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:34:54</sys_created_on>
+        <sys_id>563803d3c3f126d095f31753e401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19736008a120000001</sys_recorded_at>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:34:54</sys_updated_on>
+        <type>Icon section destinations</type>
+        <update_guid>1a3803d31ff126d08d280dd59990ba8d</update_guid>
+        <update_guid_history>1a3803d31ff126d08d280dd59990ba8d:-276779724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-03 13:35:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_navigation_section_m2m_destination">sys_sg_navigation_section_m2m_destination</sys_db_object>
+        <sys_id>561e01133ff04c568d068c046578fd44</sys_id>
+        <sys_metadata>96388fdbc3b126d095f31753e401316b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_scope_delete display_value="">18d84dd597c244488095fb07956c8a40</sys_scope_delete>
+        <sys_update_name>sys_sg_navigation_section_m2m_destination_96388fdbc3b126d095f31753e401316b</sys_update_name>
+        <sys_update_version display_value="sys_sg_navigation_section_m2m_destination_96388fdbc3b126d095f31753e401316b">563803d3c3f126d095f31753e401318e</sys_update_version>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-03 13:35:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

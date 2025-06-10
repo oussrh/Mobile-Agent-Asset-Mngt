@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_section_m2m">
+    <sys_sg_parameter_section_m2m action="DELETE">
+        <active>true</active>
+        <description/>
+        <label/>
+        <name>New section mapping</name>
+        <order/>
+        <page display_value="asset_info_page">67e241481b42e6143dde65fce54bcb9b</page>
+        <parameter_screen display_value="Register New Laptop ">32befc001b8ea6143dde65fce54bcbf2</parameter_screen>
+        <parameter_section display_value="barcodes">69608db277121110814d99f69c5a9972</parameter_section>
+        <sys_class_name>sys_sg_parameter_section_m2m</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 13:30:02</sys_created_on>
+        <sys_id>aa4ad1c81bcae6143dde65fce54bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section mapping</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_parameter_section_m2m_aa4ad1c81bcae6143dde65fce54bcb57</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:30:02</sys_updated_on>
+    </sys_sg_parameter_section_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</application>
+        <file_path/>
+        <instance_id>435e1ba7db0bcf444065f0e5bf96196c</instance_id>
+        <instance_name>deveeas</instance_name>
+        <name>sys_sg_parameter_section_m2m_aa4ad1c81bcae6143dde65fce54bcb57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_section_m2m"><sys_sg_parameter_section_m2m action="INSERT_OR_UPDATE"><active>true</active><description/><label/><name>New section mapping</name><order/><page display_value="asset_info_page">67e241481b42e6143dde65fce54bcb9b</page><parameter_screen display_value="Register New Laptop ">32befc001b8ea6143dde65fce54bcbf2</parameter_screen><parameter_section display_value="barcodes">69608db277121110814d99f69c5a9972</parameter_section><sys_class_name>sys_sg_parameter_section_m2m</sys_class_name><sys_created_by>irhoniou</sys_created_by><sys_created_on>2025-06-05 13:30:02</sys_created_on><sys_id>aa4ad1c81bcae6143dde65fce54bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New section mapping</sys_name><sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package><sys_policy/><sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope><sys_update_name>sys_sg_parameter_section_m2m_aa4ad1c81bcae6143dde65fce54bcb57</sys_update_name><sys_updated_by>irhoniou</sys_updated_by><sys_updated_on>2025-06-05 13:30:02</sys_updated_on></sys_sg_parameter_section_m2m></record_update>]]></payload>
+        <payload_hash>1155089591</payload_hash>
+        <record_name>New section mapping</record_name>
+        <reverted_from/>
+        <source>3e30c31fc3bde2d095f31753e4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 13:30:02</sys_created_on>
+        <sys_id>a64a118c1bcae6143dde65fce54bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974048cd710000001</sys_recorded_at>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:30:02</sys_updated_on>
+        <type>Input Form Section</type>
+        <update_guid>2a4a118c88cae61458222a379b2a6d64</update_guid>
+        <update_guid_history>2a4a118c88cae61458222a379b2a6d64:1155089591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 13:31:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_parameter_section_m2m">sys_sg_parameter_section_m2m</sys_db_object>
+        <sys_id>131aaf0d4c2442208dc4ee2ef2c20401</sys_id>
+        <sys_metadata>aa4ad1c81bcae6143dde65fce54bcb57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section mapping</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_scope_delete display_value="">18d84dd597c244488095fb07956c8a40</sys_scope_delete>
+        <sys_update_name>sys_sg_parameter_section_m2m_aa4ad1c81bcae6143dde65fce54bcb57</sys_update_name>
+        <sys_update_version display_value="sys_sg_parameter_section_m2m_aa4ad1c81bcae6143dde65fce54bcb57">a64a118c1bcae6143dde65fce54bcb65</sys_update_version>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 13:31:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

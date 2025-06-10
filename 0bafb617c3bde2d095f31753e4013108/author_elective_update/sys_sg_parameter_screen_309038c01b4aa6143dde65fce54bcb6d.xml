@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen">
+    <sys_sg_parameter_screen action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <cancel_label>Cancel</cancel_label>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <header_only_on_first_page>false</header_only_on_first_page>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <name>get_Asset_by_tag_screen</name>
+        <next_label>Next</next_label>
+        <order/>
+        <pagination_type>all</pagination_type>
+        <parent/>
+        <parent_table/>
+        <prev_label>Previous</prev_label>
+        <reset_after_submit>false</reset_after_submit>
+        <resume>false</resume>
+        <roles_override/>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sys_sg_parameter_screen</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:27:47</sys_created_on>
+        <sys_id>309038c01b4aa6143dde65fce54bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_Asset_by_tag_screen</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_update_name>sys_sg_parameter_screen_309038c01b4aa6143dde65fce54bcb6d</sys_update_name>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:27:47</sys_updated_on>
+        <type display_value="">string</type>
+        <view_config/>
+    </sys_sg_parameter_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</application>
+        <file_path/>
+        <instance_id>435e1ba7db0bcf444065f0e5bf96196c</instance_id>
+        <instance_name>deveeas</instance_name>
+        <name>sys_sg_parameter_screen_309038c01b4aa6143dde65fce54bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen"><sys_sg_parameter_screen action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><application_roles/><available_offline>false</available_offline><cancel_label>Cancel</cancel_label><data_item/><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><header_only_on_first_page>false</header_only_on_first_page><hidden>false</hidden><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><name>get_Asset_by_tag_screen</name><next_label>Next</next_label><order/><pagination_type>all</pagination_type><parent/><parent_table/><prev_label>Previous</prev_label><reset_after_submit>false</reset_after_submit><resume>false</resume><roles_override/><submit_label>Submit</submit_label><sys_class_name>sys_sg_parameter_screen</sys_class_name><sys_created_by>irhoniou</sys_created_by><sys_created_on>2025-06-05 10:27:47</sys_created_on><sys_id>309038c01b4aa6143dde65fce54bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>get_Asset_by_tag_screen</sys_name><sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package><sys_policy/><sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope><sys_update_name>sys_sg_parameter_screen_309038c01b4aa6143dde65fce54bcb6d</sys_update_name><sys_updated_by>irhoniou</sys_updated_by><sys_updated_on>2025-06-05 10:27:47</sys_updated_on><type display_value="">string</type><view_config/></sys_sg_parameter_screen></record_update>]]></payload>
+        <payload_hash>1127219429</payload_hash>
+        <record_name>get_Asset_by_tag_screen</record_name>
+        <reverted_from/>
+        <source>3e30c31fc3bde2d095f31753e4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 10:27:47</sys_created_on>
+        <sys_id>74907cc81b4aa6143dde65fce54bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973fa1f1740000001</sys_recorded_at>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 10:27:47</sys_updated_on>
+        <type>Input form screen</type>
+        <update_guid>38907cc8fc4aa614b2a13cf94cdc5276</update_guid>
+        <update_guid_history>38907cc8fc4aa614b2a13cf94cdc5276:1127219429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>irhoniou</sys_created_by>
+        <sys_created_on>2025-06-05 11:27:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_parameter_screen">sys_sg_parameter_screen</sys_db_object>
+        <sys_id>ca63ac5c6ba64ef1b298528276967191</sys_id>
+        <sys_metadata>309038c01b4aa6143dde65fce54bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_Asset_by_tag_screen</sys_name>
+        <sys_package display_value="Mobile Agent Asset Management" source="x_eease_mobile_age">0bafb617c3bde2d095f31753e4013108</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Agent Asset Management">0bafb617c3bde2d095f31753e4013108</sys_scope>
+        <sys_scope_delete display_value="">18d84dd597c244488095fb07956c8a40</sys_scope_delete>
+        <sys_update_name>sys_sg_parameter_screen_309038c01b4aa6143dde65fce54bcb6d</sys_update_name>
+        <sys_update_version display_value="sys_sg_parameter_screen_309038c01b4aa6143dde65fce54bcb6d">74907cc81b4aa6143dde65fce54bcb77</sys_update_version>
+        <sys_updated_by>irhoniou</sys_updated_by>
+        <sys_updated_on>2025-06-05 11:27:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
